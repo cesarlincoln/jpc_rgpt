@@ -1,8 +1,8 @@
-# jpc_rgpt
+# RGP-t / REVARB-t for outlier-robust system identification
 
-This is a simple RGP-t / REVARB-t outlier-robust system identification example which complements the paper "Deep Recurrent Gaussian Processes for Outlier-Robust System Identification" submitted to the Journal of Process Control.
+This is a simple RGP-t / REVARB-t outlier-robust system identification example in the R programming language which complements the paper "Deep Recurrent Gaussian Processes for Outlier-Robust System Identification" submitted to the Journal of Process Control.
 
-To run it, change the current path to the folder containing the file "jpc_identification.R" and run the script.
+To run it, change the current path to the folder containing the file "jpc_identification.R" and run the script. Some additional R packages might be necessary. We recommend the RStudio IDE (https://www.rstudio.com/) to install those and run the example. 
 
 Paper Abstract
 

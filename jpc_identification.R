@@ -8,7 +8,7 @@ source("code/figuresFunctions.R")
 
 ###############################################################################
 
-# Change the current path to the folder containing this file and run the scriot.
+# Change the current path to the folder containing this file and run the script.
 
 ### Choose the options below by commenting and uncommenting the related lines.
 

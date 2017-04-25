@@ -634,7 +634,11 @@ optimizeHyperParameters <- function( u, y, lu, ly, lag=1, M=10, numHiddenLayers=
   # Initialization parameters
   N <- length(y)
   sigmaInit <- 0.01
-  lambdaInit <- 0.5
+  if( numHiddenLayers == 1 ){
+    lambdaInit <- 0.5
+  } else{
+    lambdaInit <- 0.1
+  }
   
   optimInit <- vector( "list", numHiddenLayers+1 )
   optimOpts <- vector( "list", numHiddenLayers+1 )

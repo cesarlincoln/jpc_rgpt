@@ -2,9 +2,6 @@
 
 library(Matrix)
 library(compiler)
-#library(gputools)
-# library(rpud)
-# library(HiPLARM)
 
 # Common functions
 

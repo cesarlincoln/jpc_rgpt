@@ -1,6 +1,5 @@
 library(Matrix)
 library(compiler)
-#library(gputools)
 
 # Linear kernel
 
